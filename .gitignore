@@ -1,43 +1,36 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+*.py[co]
 
-# Folder config file
-Desktop.ini
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+# Installer logs
+pip-log.txt
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+# Unit test / coverage reports
+htmlcov
+.coverage*
+.tox
 
-# Windows shortcuts
-*.lnk
+#Translations
+*.mo
 
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
+#Mr Developer
+.mr.developer.cfg
 
 .DS_Store
-.AppleDouble
-.LSOverride
+.idea
 
-# Thumbnails
-._*
-
-# Files that might appear on external disk
-.Spotlight-V100
-.Trashes
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+# Ignore user config
+user-config.json
+userapiconfig.py
+usermysql.json
